@@ -67,8 +67,36 @@ ul {
   align-items: center;
   justify-content: space-between;
   padding: .75rem;
+  margin-bottom: 3rem;
 }
 
-li {
+.products {
+  display: flex;
+  justify-content: space-between;
+  margin: 3rem 0 0 0;
+}
 
+.product {
+  width: 30%;
+}
+
+.imagecontainer {
+  height: 9rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem 0px;
+  border: 4px solid black;
+}
+
+.imagecontainer img {
+  max-width: 8rem;
+}
+
+.imagetext {
+  background-color: black;
+  color: white;
+  text-align: center;
+  display: block;
+  padding: 0.5rem;
 }
