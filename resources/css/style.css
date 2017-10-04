@@ -100,3 +100,34 @@ ul {
   display: block;
   padding: 0.5rem;
 }
+
+.contact {
+  display: flex;
+  justify-content: space-between;
+  margin: 3rem 0 4rem 0;
+}
+
+.contactheader {
+  width: 35%;
+}
+
+.contacttitle {
+  background-color: black;
+  color: white;
+  text-align: left;
+  display: block;
+  padding: 1rem 0 1rem 2rem;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  display: block;
+}
+
+footer .container {
+  display: flex;
+  text-align: left;
+  height: 5rem;
+  align-items: center;
+}
