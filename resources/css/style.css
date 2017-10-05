@@ -169,6 +169,7 @@ footer .container {
   .featured h4, h1 {
     width: 100%;
     position: relative;
+    top: 10rem;
   }
 
   .featured h4 {
